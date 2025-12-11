@@ -103,4 +103,4 @@ with gr.Blocks() as demo:
         run_e.click(fn=wrapped_embedded, inputs=[embed_method, lasso_alpha], outputs=[out_table_e, out_plot_e])
 
 if __name__ == "__main__":
-    demo.launch(server_name="0.0.0.0", server_port=7860, ssr_mode=False)
+    demo.launch(server_name="0.0.0.0", server_port=10000, ssr_mode=False)
